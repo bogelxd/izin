@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO2="https://github.com/BvsshXyz/izin/raw/main/"
+REPO2="https://github.com/bogelxd/izin/raw/main/"
 
 function spinner() {
     local pid=$!
