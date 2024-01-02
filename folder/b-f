@@ -23,7 +23,7 @@ j="\033[0;33m"
 function lane() {
 echo -e "${y}────────────────────────────────────────────${exitsc}"
 }
-url_izin="https://raw.githubusercontent.com/BvsshXyz/izinsc/main/ip"
+url_izin="https://raw.githubusercontent.com/bogelxd/izinsc/main/ip"
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
@@ -40,7 +40,7 @@ echo -e "            \033[0;35mPERMISSION DENIED !${exitsc}"
 echo -e "   ${j}Your VPS${exitsc} $ipsaya ${j}Has been Banned${exitsc}"
 echo -e "     ${j}Buy access permissions for scripts${exitsc}"
 echo -e "             ${j}Contact Admin :${exitsc}"
-echo -e "      \033[0;36mWhatsapp${exitsc} wa.me/6283150032857"
+echo -e "      \033[0;36mTELEGRAM${exitsc} t.me/bogelxd_vpn"
 lane
 exit
 fi
@@ -79,7 +79,7 @@ NC='\e[0m'
 clear
 
 # REPO
-REPO="https://raw.githubusercontent.com/BvsshXyz/vvip/main/"
+REPO="https://raw.githubusercontent.com/bogelxd/vvip/main/"
 
 # Information vps
 curl -sS "ipinfo.io/org?token=7a814b6263b02c" > /root/.isp
@@ -261,7 +261,7 @@ fi
 }
 
 function notification() {
-url_izin="https://raw.githubusercontent.com/yulius/izinsc/main/ip"
+url_izin="https://raw.githubusercontent.com/bogelxd/izinsc/main/ip"
 username=$(curl $url_izin | grep $IP | awk '{print $2}')
 valid=$(curl $url_izin | grep $IP | awk '{print $3}')
 exp="${valid}"
